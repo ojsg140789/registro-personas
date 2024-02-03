@@ -18,8 +18,9 @@
       </ion-header>
 
       <ion-list>
-        <MessageListItem v-for="message in messages" :key="message.id" :message="message" />
+        <MessageListItem v-for="message in messages" :key="message.id" :message="message" :id="message.id" />
       </ion-list>
+      <v-pagination :length="4"></v-pagination>
     </ion-content>
   </ion-page>
 </template>

@@ -1,0 +1,7 @@
+{
+  "name": "registro-personas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
